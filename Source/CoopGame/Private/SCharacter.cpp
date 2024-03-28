@@ -123,6 +123,13 @@ void ASCharacter::OnHealthChanged(USHealthComponent* OwningHealthComp, float Hea
 		// Die!
 		bDied = true;
 
+		// Weapon despawn
+		if (CurrentWeapon)
+		{
+			CurrentWeapon->SetLifeSpan(10.0f);
+		}
+		
+
 		GetMovementComponent()->StopMovementImmediately();
 		GetCapsuleComponent()->SetCollisionEnabled(ECollisionEnabled::NoCollision);
 
