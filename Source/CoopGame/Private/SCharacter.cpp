@@ -5,8 +5,8 @@
 #include "GameFramework/SpringArmComponent.h"
 #include "GameFramework/PawnMovementComponent.h"
 #include "Components/CapsuleComponent.h"
-#include "CoopGame.h"
-#include "SHealthComponent.h"
+#include "CoopGame/CoopGame.h"
+#include "Components/SHealthComponent.h"
 #include "SWeapon.h"
 #include "Net/UnrealNetwork.h"
 

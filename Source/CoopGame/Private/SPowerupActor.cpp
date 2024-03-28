@@ -12,7 +12,9 @@ ASPowerupActor::ASPowerupActor()
 
 	bIsPowerupActive = false;
 
-	SetReplicates(true);
+	bReplicates = true;
+	//UE5
+	//SetReplicates(true);
 }
 
 

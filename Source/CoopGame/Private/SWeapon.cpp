@@ -7,7 +7,7 @@
 #include "Components/SkeletalMeshComponent.h"
 #include "Particles/ParticleSystemComponent.h"
 #include "PhysicalMaterials/PhysicalMaterial.h"
-#include "CoopGame.h"
+#include "CoopGame/CoopGame.h"
 #include "TimerManager.h"
 #include "Net/UnrealNetwork.h"
 
@@ -32,7 +32,9 @@ ASWeapon::ASWeapon()
 	BulletSpread = 2.0f;
 	RateOfFire = 600;
 
-	SetReplicates(true);
+	bReplicates = true;
+	//UE5
+	//SetReplicates(true);
 
 	NetUpdateFrequency = 66.0f;
 	MinNetUpdateFrequency = 33.0f;

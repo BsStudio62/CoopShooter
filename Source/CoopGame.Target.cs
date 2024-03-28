@@ -10,5 +10,11 @@ public class CoopGameTarget : TargetRules
 		Type = TargetType.Game;
 
 		ExtraModuleNames.AddRange( new string[] { "CoopGame" } );
-	}
+
+        // Update build settings
+        DefaultBuildSettings = BuildSettingsVersion.Latest;
+
+        // Update include order version
+        IncludeOrderVersion = EngineIncludeOrderVersion.Latest;
+    }
 }

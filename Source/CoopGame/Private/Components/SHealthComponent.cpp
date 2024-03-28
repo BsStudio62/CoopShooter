@@ -1,6 +1,6 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
-#include "SHealthComponent.h"
+#include "Components/SHealthComponent.h"
 #include "SGameMode.h"
 #include "Net/UnrealNetwork.h"
 

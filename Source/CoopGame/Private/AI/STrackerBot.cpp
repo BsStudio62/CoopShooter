@@ -1,13 +1,13 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
-#include "STrackerBot.h"
+#include "AI/STrackerBot.h"
 #include "Components/StaticMeshComponent.h"
 #include "Kismet/GameplayStatics.h"
 #include "NavigationSystem.h"
 #include "NavigationPath.h"
 #include "GameFramework/Character.h"
 #include "DrawDebugHelpers.h"
-#include "SHealthComponent.h"
+#include "Components/SHealthComponent.h"
 #include "SCharacter.h"
 #include "Components/SphereComponent.h"
 #include "Sound/SoundCue.h"

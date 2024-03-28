@@ -21,7 +21,9 @@ ASPickupActor::ASPickupActor()
 
 	CooldownDuration = 10.0f;
 
-	SetReplicates(true);
+	bReplicates = true;
+	// UE5
+	//SetReplicates(true);
 }
 
 // Called when the game starts or when spawned
